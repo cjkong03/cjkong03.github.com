@@ -15,19 +15,42 @@ body { background: purple;
 
 #banner {
     width: 975px;
-    height: 250px;
+    height: 325px;
     background: lavender;
+    border-radius: 200px;
+    position:relative;
+}
+p {
     text-align: center;
     font-size: larger;
-    border-radius: 200px;
 }
-#dia {
-    width:1cm;
-    height:1cm;
-    color:pink;
-    border-radius:0;
-    transform: rotate(45deg)
+span { width:50px;
+height: 50px;
+background-color: pink;
+display: inline-block;
+margin: 20px;
+align-content: center;
+transform:rotate(45deg);
+
 }
+span:hover { background-color: purple;
+    transition: all 2s ease-in-out;
+
+}
+#move {width: 20px;
+height:20px;
+background-color:purple;
+border-radius: 50%;
+border: none;
+position:absolute;
+}
+#banner:hover {
+    cursor: pointer;
+}
+#banner:hover div {
+    animation: animation1 3s ease-in-out infinite alternate;
+}
+
 li {list-style-type: none;
 margin:20px;
 text-align: center;}
@@ -42,3 +65,8 @@ margin: 10px;
 border-radius:200px;}
 
 footer {text-align:center;}
+
+@keyframes animation1 {
+    from { left:0;}
+    to {left: calc(100% - 30px);}
+}
