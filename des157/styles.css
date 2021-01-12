@@ -12,13 +12,21 @@ body { background: purple;
     padding: 50px;
     
 }
+
 #banner {
     width: 975px;
     height: 250px;
-    background: white;
+    background: lavender;
     text-align: center;
     font-size: larger;
     border-radius: 200px;
+}
+#dia {
+    width:1cm;
+    height:1cm;
+    color:pink;
+    border-radius:0;
+    transform: rotate(45deg)
 }
 li {list-style-type: none;
 margin:20px;
