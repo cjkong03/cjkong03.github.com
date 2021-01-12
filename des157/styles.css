@@ -1,5 +1,36 @@
-#banner {
-    width: 800px;
-    height: 250px;
-    color: purple;
+h1{text-align: center;
+font-family: monospace;
+color:pink;
 }
+h2{text-align: center;
+    font-family: monospace;
+padding: 20px;
+}
+
+body { background: purple;
+    font-family: monospace;
+    padding: 50px;
+    
+}
+#banner {
+    width: 975px;
+    height: 250px;
+    background: white;
+    text-align: center;
+    font-size: larger;
+    border-radius: 200px;
+}
+li {list-style-type: none;
+margin:20px;
+text-align: center;}
+
+main { display:flex;
+flex-flow: row;
+}
+div {padding: 100px;
+background: powderblue;
+border: 5px solid white;
+margin: 10px;
+border-radius:200px;}
+
+footer {text-align:center;}
