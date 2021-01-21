@@ -1,6 +1,7 @@
 h1{text-align: center;
 font-family: monospace;
 color:pink;
+
 }
 h2{text-align: center;
     font-family: monospace;
@@ -54,6 +55,9 @@ position:absolute;
 li {list-style-type: none;
 margin:20px;
 text-align: center;}
+
+a{text-decoration:none;
+color: black;}
 
 main { display:flex;
 flex-flow: row;
