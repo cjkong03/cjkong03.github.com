@@ -1,4 +1,5 @@
-body{background-color: pink;}
+body{background-color: pink;
+align-content: center;}
 h1 {text-align: center;
     font-family: 'Courier New', Courier, monospace;
 padding:50px;
@@ -10,10 +11,19 @@ border-radius:100px;
 h2{font-family:'Courier New', Courier, monospace;
 color:cornflowerblue;}
 a{color:cornflowerblue;}
-div{text-align: center;
+div{
 padding:50px;
 margin:20px;
-border: cornflowerblue 2px solid;}
+border: cornflowerblue 2px solid;
+width: 500px;
+
+
+
+}
+
+p{width:500px;
+align-content: center;}
+
 footer{text-align: center;
 font-family: 'Courier New', Courier, monospace;
 font-size:small;}

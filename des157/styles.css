@@ -11,6 +11,7 @@ padding: 20px;
 body { background: purple;
     font-family: monospace;
     padding: 50px;
+   
     
 }
 
@@ -66,7 +67,8 @@ div {padding: 100px;
 background: powderblue;
 border: 5px solid white;
 margin: 10px;
-border-radius:200px;}
+border-radius:200px;
+position:relative}
 
 footer {text-align:center;}
 
