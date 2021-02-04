@@ -12,10 +12,12 @@ h2{font-family:'Courier New', Courier, monospace;
 color:cornflowerblue;}
 a{color:cornflowerblue;}
 div{
-padding:50px;
-margin:20px;
+padding:70px;
+margin:50px;
 border: cornflowerblue 2px solid;
 width: 500px;
+position:relative;
+left:25%;
 
 
 
