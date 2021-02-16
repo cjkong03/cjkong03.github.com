@@ -31,7 +31,7 @@ header nav {
 	margin: auto;
 }
 
-.photos {transform: rotate(90deg);}
+#photos {transform: rotate(90deg);}
 
 header nav ul {
 	display: flex;
