@@ -2,7 +2,7 @@
 
 h1 {text-align: center;}
 
-body {padding: 300px;
+body {padding: 200px;
 color:bisque;
 background-color: black;}
 
@@ -63,4 +63,26 @@ header nav ul li a {
 	overflow: hidden;
 	text-align: center;
 	text-overflow: ellipsis;
+}
+ div { padding: 50px;
+font-family: monospace;
+}
+
+#first {
+	
+	margin: auto;
+	transition: all 5s ease-in;
+}
+
+#second {
+	
+	
+	margin: auto;
+	transition: all 5s ease-out;
+}
+#third {
+	
+	
+	margin: auto;
+	transition: all 5s ease-out;
 }
